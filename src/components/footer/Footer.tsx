@@ -1,8 +1,4 @@
-import {
-  FacebookLogoIcon,
-  InstagramLogoIcon,
-  LinkedinLogoIcon,
-} from "@phosphor-icons/react";
+import {FacebookLogoIcon,InstagramLogoIcon, LinkedinLogoIcon,} from "@phosphor-icons/react";
 
 function Footer() {
   let data = new Date().getFullYear();
@@ -23,7 +19,7 @@ function Footer() {
               <LinkedinLogoIcon size={48} weight="bold" />
             </a>
 
-            <a href="">
+            <a href="" target="_blank">
               <InstagramLogoIcon size={48} weight="bold" />
             </a>
 
